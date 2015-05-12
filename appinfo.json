@@ -1,0 +1,85 @@
+{
+  "uuid": "b66746ee-f3d0-4aff-85fe-736865d58a45",
+  "shortName": "Battle",
+  "longName": "Battle",
+  "companyName": "leovander",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+    {
+      "type": "font",
+      "name": "POKE_9",
+      "file": "fonts/pokemon.ttf"
+    },
+    {
+      "type": "font",
+      "name": "POKE_10",
+      "file": "fonts/pokemon.ttf"
+    },
+    {
+      "type": "font",
+      "name": "POKE_20",
+      "file": "fonts/pokemon.ttf"
+    },
+    {
+      "type": "png",
+      "name": "BACKGROUND_CAVE",
+      "file": "backgrounds/cave.png"
+    },
+    {
+      "type": "png",
+      "name": "BACKGROUND_GRASS",
+      "file": "backgrounds/grass.png"
+    },
+    {
+      "type": "png",
+      "name": "BACKGROUND_SAND",
+      "file": "backgrounds/sand.png"
+    },
+    {
+      "type": "png",
+      "name": "BACKGROUND_WATER",
+      "file": "backgrounds/water.png"
+    },
+    {
+      "type": "png",
+      "name": "BACKGROUND_PLAIN",
+      "file": "backgrounds/ice.png"
+    },
+    {
+      "type": "png",
+      "name": "STATUS_BOTTOM_BOX",
+      "file": "status_bars/bottom_box.png"
+    },
+    {
+      "type": "png",
+      "name": "STATUS_MAIN_HEALTH",
+      "file": "status_bars/main_health.png"
+    },
+    {
+      "type": "png",
+      "name": "STATUS_ENEMY_HEALTH",
+      "file": "status_bars/enemy_health.png"
+    },
+    {
+      "type": "png",
+      "name": "MONSTER_FRONT_PIKACHU",
+      "file": "fronts/pikachu.png"
+    },
+    {
+      "type": "png",
+      "name": "MONSTER_BACK_PIKACHU",
+      "file": "backs/pikachu.png"
+    }
+  ]
+  }
+}
