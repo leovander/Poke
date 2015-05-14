@@ -156,12 +156,7 @@ static void update_time() {
     strftime(buffer, sizeof(buffer), "%I:%M", tick_time);
   }
 
-  int tens = buffer[3] - '0';
-  int ones = buffer[4] - '0';
-
-  int current_mins = (tens * 10) + ones;
-
-  if(current_mins % 15 == 0) {
+  if(tick_time->tm_min % 15 == 0) {
     background++;
     if(background > 3) {
       background = 0;
